@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sync-services": "node scripts/sync-services-to-db.js"
+    "sync-services": "node scripts/sync-services-to-db.js",
+    "backup-db": "node scripts/export-full-database.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.7",
